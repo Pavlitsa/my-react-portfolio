@@ -1,0 +1,59 @@
+.footer .footer-container {
+  background-color: rgb(245, 223, 223);
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* bottom: 0; */
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  z-index: -1;
+}
+
+.footer-container a:hover {
+  text-decoration: none;
+  color: rgb(142, 204, 207);
+  border-bottom: 2px rgb(142, 204, 207) solid;
+}
+
+.footer-container a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+}
+
+.copyright:hover {
+  text-decoration: none;
+}
+
+.social a {
+  margin-right: 2vw;
+}
+
+/* smartphone portrait */
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .footer-container a {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 950px) {
+  .footer-container a {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1299px) {
+  .footer-container a {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 1505px) and (max-width: 1900px) {
+  .footer-container a {
+    font-size: 1.1rem;
+  }
+}

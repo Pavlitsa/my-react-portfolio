@@ -1,0 +1,112 @@
+.nav-container {
+  background-color: rgb(245, 223, 223, 0.9);
+  position: fixed;
+  top: 0;
+  height: 8%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding-top: auto;
+  padding-left: 2%;
+  padding-right: 7%;
+  z-index: 1;
+}
+
+.nav-item a {
+  margin-left: 15%;
+  text-decoration: none;
+  font-size: 1.1em;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+
+.nav-container a:hover {
+  color: rgb(142, 204, 207);
+  border-bottom: 2px rgb(142, 204, 207) solid;
+}
+
+.nav-item a:focus {
+  color: rgb(142, 204, 207);
+}
+
+.name-logo {
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 1.1em;
+  color: black;
+}
+
+.name-logo:hover {
+  color: rgb(142, 204, 207);
+  text-decoration: none;
+}
+
+/* smartphone portrait */
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .nav-container {
+    padding-left: 4%;
+  }
+  .nav-item a {
+    font-size: 0.8rem;
+    margin-left: 0;
+    margin-right: 6%;
+  }
+
+  .name-logo {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 950px) {
+  .nav-container {
+    padding-left: 4%;
+  }
+
+  .nav-item a {
+    font-size: 1rem;
+    margin-left: -5%;
+    margin-right: 15%;
+  }
+
+  .name-logo {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1299px) {
+  .nav-container {
+    padding-left: 2%;
+  }
+
+  .nav-item a {
+    font-size: 1.1rem;
+    margin-left: -5%;
+    margin-right: 18%;
+  }
+
+  .name-logo {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 1505px) and (max-width: 1900px) {
+  .nav-container {
+    padding-left: 2%;
+  }
+  
+  .nav-item a {
+    font-size: 1.3rem;
+    margin-left: 0%;
+    margin-right: 18%;
+  }
+
+  .name-logo {
+    font-size: 1.3rem;
+  }
+}

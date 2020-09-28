@@ -1,0 +1,84 @@
+.hr {
+  width: 90%;
+  height: 2px;
+  background: rgb(245, 223, 223);
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-bottom: 0;
+  border: 0;
+}
+
+.experience,
+.projects-container,
+.about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.about-container div,
+.experience div,
+.projects-container div {
+  width: 100%;
+  margin: 5% 0% 3.5% 7%;
+}
+
+.about-container .title,
+.experience .title,
+.projects-container .title {
+  width: 40%;
+}
+
+.about-container h4,
+.projects-container h4,
+.experience h4 {
+  font-weight: bold;
+}
+
+.paragraph p {
+  width: 80%;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.paragraph a {
+  text-decoration: none;
+  color: rgb(70, 165, 170);
+}
+
+.paragraph a:hover {
+  text-decoration: none;
+  color: rgb(142, 204, 207);
+  border-bottom: 2px rgb(142, 204, 207) solid;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+  .experience,
+  .projects-container,
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-container div,
+  .experience div,
+  .projects-container div {
+    width: 100%;
+    margin: 5% 0% 2% 0%;
+  }
+
+  .about-container h4,
+  .projects-container h4,
+  .experience h4 {
+    font-size: 1.2rem;
+    margin-left: 20%;
+    margin-bottom: 0%;
+  }
+
+  .paragraph p {
+    font-size: 1rem;
+    margin-left: 12%;
+  }
+}

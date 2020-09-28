@@ -1,0 +1,32 @@
+.main {
+  /* min-height: calc(100vh - 772px - 25px); */
+  height: 8vh;
+  width: 100%;
+  padding-top: 0;
+  position: relative;
+}
+
+/* smartphone portrait */
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .main {
+    height: 39.2vh;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1503px) {
+  .main {
+    height: 27vh;
+  }
+}
+
+@media screen and (min-width: 1505px) and (max-width: 1700px) {
+  .main {
+    height: 27vh;
+  }
+}
+
+@media screen and (min-width: 1701px) and (max-width: 2000px) {
+  .main {
+    height: 27vh;
+  }
+}

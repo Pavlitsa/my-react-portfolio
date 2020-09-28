@@ -1,0 +1,103 @@
+.card-container {
+  margin-top: 6%;
+}
+
+.card-container .card {
+  width: 100%;
+  margin-top: 20%;
+  padding-top: 2%;
+  margin: 0 auto;
+  border: none;
+  background-color: rgb(245, 223, 223, 0.9);
+  margin-bottom: 5%;
+}
+
+.card div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card a {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+  padding-bottom: 0;
+  margin-bottom: 1%;
+  text-decoration: underline;
+}
+
+.card a:hover {
+  text-decoration: underline;
+  color: rgb(142, 204, 207);
+}
+
+.project-img {
+  border: white 3px solid;
+  margin-bottom: 2%;
+}
+
+.project-title {
+  margin-bottom: 2%;
+}
+
+.project-description li {
+  list-style: none;
+  text-align: center;
+  /* width: 60%;
+  margin-left: 18%; */
+  margin-left: 21vw;
+  margin-right: 23vw;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 1%;
+}
+
+/* smartphone portrait */
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+
+  .card a {
+    font-size: 1rem;
+  }
+
+  .project-img {
+    height: 200px;
+    width: 370px;
+    margin-bottom: 2%;
+  }
+
+  .project-title {
+    margin-bottom: 2%;
+  }
+
+  .project-description ul {
+    padding-left: 0%;
+  }
+  .project-description li {
+    font-size: 0.8rem;
+    /* width: 90%; */
+    /* padding-right: 35%; */
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1300px) {
+  .card a {
+    font-size: 1.2rem;
+    padding-bottom: 0;
+    margin-bottom: 1%;
+  }
+
+  .project-img {
+    height: 395px;
+    width: 700px;
+  }
+
+  .project-description li {
+    font-size: 1rem;
+    /* width: 90%; */
+    /* padding-right: 30%; */
+  }
+}
