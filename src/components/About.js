@@ -20,11 +20,9 @@ const About = () => {
         </div>
         <div className="paragraph">
           <p>
-            With a
-            degree in Political Science and first working
-            experience in the film industry, almost 8 years ago
-            I decided to move to Munich. After working in
-            Retail and later in E-Commerce as a Customer
+            With a degree in Political Science and first working experience in
+            the film industry, almost 8 years ago I decided to move to Munich.
+            After working in Retail and later in E-Commerce as a Customer
             Operations Manager, I recently decided to make a big career change
             and fully dedicate myself to learning how to code. Programming has
             always fascincated me because of all that can be built and achieved
@@ -33,9 +31,10 @@ const About = () => {
           </p>
           <p>
             Those are some of the reasons why, in winter of 2019, I decided to
-            join the Ironhack Web Development Bootcamp in
-            Berlin. After successfully completing it, I have been working on
-            refining my skills by building new projects and working as a Frontend Development intern in the CBD industry. I am currently looking to
+            join the Ironhack Web Development Bootcamp in Berlin. After
+            successfully completing it, I have been working on refining my
+            skills by building new projects and working as a Frontend
+            Development intern in the CBD industry. I am currently looking to
             join a welcoming team as a Junior Software Developer.
           </p>
         </div>
@@ -47,21 +46,33 @@ const About = () => {
         </div>
         <div className="paragraph">
           <p>
+            <strong>Web Developer Intern</strong>
+            <br />
+            <a href="https://nordicoil.de/">Nordic Oil</a>, Munich
+          </p>
+
+          <p>
             <strong>Full Stack Web Development Bootcamp</strong>
             <br />
-            Ironhack, Berlin
+            <a href="https://www.ironhack.com/en/web-development/berlin">
+              Ironhack
+            </a>
+            , Berlin
           </p>
 
           <p>
             <strong>E-Commerce Customer Operations Manager </strong>
             <br />
-            Freeletics GmbH, Munich
+            <a href="https://www.freeletics.com/en/">Freeletics GmbH</a>, Munich
           </p>
 
           <p>
             <strong>Community Management Intern </strong>
             <br />
-            InterNations GmbH, Munich
+            <a href="https://www.internations.org/">
+              InterNations GmbH, Munich
+            </a>
+            , Munich
           </p>
 
           <p>
